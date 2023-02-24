@@ -1,0 +1,26 @@
+x = (1, 3, 5, 7, 9)
+f = list(x)
+del(f[2])
+print(f)
+
+y = ([1, 2, 3], 4, 5, 6, 7)
+del(y[0][1])
+print(y)
+
+z = (5, 2, 8, 9)
+b = (12, 34, 89, 24)
+c = (z + b)
+print(c)
+g = list(c)
+g.sort()
+print(g)
+
+
+USING FOR LOOPS AND RANGE TO CREATE LIST ELEMENTS
+-------------------------------------------------
+cubes = []
+for values in range(1, 201):
+    cube = values ** 3
+    cubes.append(cube)
+    
+print(cubes)
